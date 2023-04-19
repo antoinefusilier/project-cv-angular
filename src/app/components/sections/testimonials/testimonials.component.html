@@ -1,0 +1,107 @@
+<div class="container">
+  <!-- section title -->
+  <h2 class="section-title wow fadeInUp">Clients & Reviews</h2>
+
+  <div class="spacer-60"></div>
+
+  <!-- testimonials wrapper -->
+  <div class="testimonials-wrapper">
+    <ngb-carousel *ngIf="images" [interval]="5000" [showNavigationArrows]="false">
+      <ng-template ngbSlide>
+        <div class="testimonial-item text-center mx-auto">
+          <div class="thumb mb-3 mx-auto">
+            <img src="assets/images/avatar-3.svg" alt="customer-name" />
+          </div>
+          <h4 class="mt-3 mb-0">John Doe</h4>
+          <span class="subtitle">Product designer at Dribbble</span>
+          <div class="bg-white padding-30 shadow-dark rounded triangle-top position-relative mt-4">
+            <p class="mb-0">
+              I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍
+            </p>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="testimonial-item text-center mx-auto">
+          <div class="thumb mb-3 mx-auto">
+            <img src="assets/images/avatar-3.svg" alt="customer-name" />
+          </div>
+          <h4 class="mt-3 mb-0">John Doe</h4>
+          <span class="subtitle">Product designer at Dribbble</span>
+          <div class="bg-white padding-30 shadow-dark rounded triangle-top position-relative mt-4">
+            <p class="mb-0">
+              I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍
+            </p>
+          </div>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
+  <div class="row" style="margin-top: 60px">
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-1-light.svg' : 'assets/images/client-1.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-2-light.svg' : 'assets/images/client-2.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-3-light.svg' : 'assets/images/client-3.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-4-light.svg' : 'assets/images/client-4.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-5-light.svg' : 'assets/images/client-5.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-6-light.svg' : 'assets/images/client-6.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-7-light.svg' : 'assets/images/client-7.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <!-- client item -->
+      <div class="client-item">
+        <div class="inner">
+          <img [src]="themeType === 'dark' ? 'assets/images/client-8-light.svg' : 'assets/images/client-8.svg'" alt="client-name" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

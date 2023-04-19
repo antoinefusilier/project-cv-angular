@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c26feb1-8e4f-48bd-8e39-da115ec1960d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app-config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/loader/loader.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/loader/loader.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/loader/loader.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/loader/loader.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/loader/loader.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/scroll-spy/scroll-spy.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/scroll-spy/scroll-spy.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/about/about.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/about/about.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/about/about.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/about/about.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/blog/blog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/blog/blog.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/blog/blog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/blog/blog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/contact/contact.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/contact/contact.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/contact/contact.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/contact/contact.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/experience/experience.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/experience/experience.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/experience/experience.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/experience/experience.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/gallery/gallery.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/gallery/gallery.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/gallery/gallery.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/gallery/gallery.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/home/home.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/pricing/pricing.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/pricing/pricing.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/pricing/pricing.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/pricing/pricing.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/sections.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/services/services.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/services/services.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/services/services.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/services/services.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/ui-modal/ui-modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/ui-modal/ui-modal.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/ui-modal/ui-modal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/ui-modal/ui-modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/works/works.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/works/works.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/works/works.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/sections/works/works.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/landing.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/landing.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/landing.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/landing/landing.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/theme/layout/layout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/theme/layout/layout.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/theme/layout/layout.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/theme/layout/layout.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/1-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/2-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/3-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-1-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-2-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-3-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-4-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-5-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-6-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-7-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-8-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/client-8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dots-bg-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dots-bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/1-1-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/1-2-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/1-3-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/2-1-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/2-2-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/2-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/2-3-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/2-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/3-1-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/3-2-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/3-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/3-3-min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/3-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/dots-bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/envato.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/landing/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-b-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-b-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/map-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/price-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/price-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/price-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/service-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/single-work.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/works/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/works/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/works/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/works/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/works/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/works/6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tslint.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>strictPropertyInitialization</find>
+      <find>mobile-header-1</find>
+      <find>this.activatedRoute.snapshot.params.theme</find>
+      <find>layoutType</find>
+      <find>spacer</find>
+      <find>console.log</find>
+      <find>window</find>
+      <find>headerClass</find>
+      <find>assets/images/</find>
+      <find>href=&quot;</find>
+      <find>href=&quot;#&quot;</find>
+      <find>#</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>this.activatedRoute.snapshot.params.type</replace>
+      <replace>mobileHeaderClass</replace>
+      <replace>assets/images/landing/</replace>
+      <replace>href=&quot;javascript:&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>H:\ng-bolby\src</dir>
+      <dir>H:\ng-bolby\src\app</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../angular.json" />
+        <option value="$PROJECT_DIR$/../tsconfig.json" />
+        <option value="$PROJECT_DIR$/app/view/vertical/vertical.component.html" />
+        <option value="$PROJECT_DIR$/app/view/view-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/view/view.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.ts" />
+        <option value="$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.html" />
+        <option value="$PROJECT_DIR$/app/app-config.ts" />
+        <option value="$PROJECT_DIR$/app/components/sections/home/home.component.html" />
+        <option value="$PROJECT_DIR$/app/components/loader/loader.component.html" />
+        <option value="$PROJECT_DIR$/app/components/loader/loader.component.ts" />
+        <option value="$PROJECT_DIR$/app/view/view.component.html" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/sections/experience/experience.component.html" />
+        <option value="$PROJECT_DIR$/app/components/sections/services/services.component.html" />
+        <option value="$PROJECT_DIR$/app/components/sections/about/about.component.html" />
+        <option value="$PROJECT_DIR$/app/components/scroll-spy/scroll-spy.directive.ts" />
+        <option value="$PROJECT_DIR$/app/view/view.component.ts" />
+        <option value="$PROJECT_DIR$/app/theme/layout/layout.component.html" />
+        <option value="$PROJECT_DIR$/app/theme/layout/layout.component.ts" />
+        <option value="$PROJECT_DIR$/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/components/sections/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/app/landing/landing.component.ts" />
+        <option value="$PROJECT_DIR$/app/landing/landing.component.html" />
+        <option value="$PROJECT_DIR$/styles.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="197" />
+    <option name="y" value="32" />
+    <option name="width" value="1595" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="H:/ng-able-pro" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\ng-bolby\src\assets\images" />
+      <recent name="H:\ng-bolby\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c26feb1-8e4f-48bd-8e39-da115ec1960d" name="Default Changelist" comment="" />
+      <created>1611974276957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611974276957</updated>
+      <workItem from="1611974279162" duration="2098000" />
+      <workItem from="1612278959863" duration="9617000" />
+      <workItem from="1612371498292" duration="8799000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20514000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18703899" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/theme/view/default/default.component.ts" />
+    <entry file="file://$PROJECT_DIR$/app/theme/view/default/default.module.ts" />
+    <entry file="file://$PROJECT_DIR$/app/components/gallery/gallery.component.ts" />
+    <entry file="file://$PROJECT_DIR$/app/components/gallery/gallery.component.html" />
+    <entry file="file://$PROJECT_DIR$/../package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/loader/loader.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sections/works/works.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/loader/loader.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+            <element signature="e#111#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/loader/loader.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="106" selection-start-line="1" selection-start-column="106" selection-end-line="1" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/logo-dark.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/vertical/vertical-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/app/view/vertical/vertical.module.ts" />
+    <entry file="file://$PROJECT_DIR$/app/view/view.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/vertical/vertical.component.html" />
+    <entry file="file://$PROJECT_DIR$/app/view/vertical/vertical.component.ts" />
+    <entry file="file://$PROJECT_DIR$/app/components/sections/testimonials/testimonials.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app-config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/theme/layout/layout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="157" column="35" lean-forward="true" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/view-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/view.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/view.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/theme/layout/layout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1489">
+          <caret line="148" column="69" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sections/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="52" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/landing/landing.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="212" column="67" selection-start-line="212" selection-start-column="67" selection-end-line="212" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/sections/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="217" lean-forward="true" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/landing/landing.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

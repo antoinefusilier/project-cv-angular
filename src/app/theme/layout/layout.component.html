@@ -1,0 +1,128 @@
+<header
+  *ngIf="this.themeConfig.theme !== 'horizontal'"
+  class="{{ openClass }}"
+  [ngClass]="mobileHeaderClass"
+  (clickOutside)="openClass = ''"
+>
+  <div class="container">
+    <!-- menu icon -->
+    <div class="menu-icon d-inline-flex mr-4">
+      <button (click)="openClass = openClass === 'open' ? '' : 'open'">
+        <span></span>
+      </button>
+    </div>
+    <!-- logo image -->
+    <div class="site-logo">
+      <a routerLink="/">
+        <img [src]="this.themeConfig.themeType === 'light' ? 'assets/images/logo-dark.svg' : 'assets/images/logo.svg'" alt="Bolby" />
+      </a>
+    </div>
+  </div>
+</header>
+
+<header *ngIf="this.themeConfig.theme === 'horizontal'" [ngClass]="desktopHeaderClass" (window:resize)="onResize($event)">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg" [ngClass]="horizontalNavClass">
+      <a class="navbar-brand" routerLink="/">
+        <img [src]="desktopLogo" alt="Bolby" />
+      </a>
+      <button
+        (click)="collapsedCardToggle()"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler"
+        data-target="#navbarNavDropdown"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse" id="navbarNavDropdown" [@collapsedCard]="collapsedCard">
+        <ul class="navbar-nav ml-auto scrollspy">
+          <li *ngFor="let sec of sections" class="nav-item" [ngClass]="{ active: currentSection === sec.uri }" (click)="scrollTo(sec.uri)">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === sec.uri }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="{{sec.iconClass}}"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">{{sec.name}}</span>
+            </a>
+          </li>
+          <li class="nav-item" [ngClass]="{ active: currentSection === 'about' }" (click)="scrollTo('about')">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'about' }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-user-following"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">About</span>
+            </a>
+          </li>
+          <li class="nav-item" [ngClass]="{ active: currentSection === 'services' }" (click)="scrollTo('services')">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'services' }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-briefcase"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">Services</span>
+            </a>
+          </li>
+          <li class="nav-item" [ngClass]="{ active: currentSection === 'experience' }" (click)="scrollTo('experience')">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'experience' }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-graduation"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">Experience</span>
+            </a>
+          </li>
+          <li class="nav-item" [ngClass]="{ active: currentSection === 'works' }" (click)="scrollTo('works')">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'works' }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-layers"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">Works</span>
+            </a>
+          </li>
+          <li class="nav-item" [ngClass]="{ active: currentSection === 'blog' }" (click)="scrollTo('blog')">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'blog' }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-note"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">Blog</span>
+            </a>
+          </li>
+          <li class="nav-item" [ngClass]="{ active: currentSection === 'contact' }" (click)="scrollTo('contact')">
+            <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === 'contact' }">
+              <i *ngIf="this.themeConfig.theme !== 'horizontal'" class="icon-bubbles"></i>
+              <span *ngIf="this.themeConfig.theme !== 'collapsed'">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<header
+  *ngIf="this.themeConfig.theme !== 'horizontal'"
+  class="d-flex align-items-start flex-column {{ openClass }}"
+  [ngClass]="desktopHeaderClass"
+>
+  <!-- logo image -->
+  <div class="site-logo">
+    <a routerLink="/">
+      <img [src]="desktopLogo" alt="Bolby" />
+    </a>
+  </div>
+
+  <!-- main menu -->
+  <nav>
+    <ul class="vertical-menu scrollspy">
+      <li *ngFor="let sec of sections" [ngClass]="{ active: currentSection === sec.uri }" (click)="scrollTo(sec.uri)">
+        <a href="javascript:" class="nav-link" [ngClass]="{ active: currentSection === sec.uri }"
+          ><i class="{{sec.iconClass}}"></i>
+          <span *ngIf="this.themeConfig.theme !== 'collapsed'">{{sec.name}}</span>
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <!-- site footer -->
+  <div class="footer">
+    <!-- copyright text -->
+    <span class="copyright">{{copyRigth}}</span>
+  </div>
+</header>
+<!-- main layout -->
+<main class="{{ openClass }}" [ngClass]="contentClass">
+  <router-outlet></router-outlet>
+
+  <!-- Go to top button -->
+  <a href="javascript:" id="return-to-top" (click)="scrollTo('home')"><i class="fas fa-arrow-up"></i></a>
+</main>
