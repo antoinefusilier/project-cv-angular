@@ -33,6 +33,17 @@ export class WorksComponent implements OnInit {
     }
   ]
 
+  public projects = [
+    {
+      name: 'E-Commerce PHP',
+      description: 'Site en PHP pure pour le diplôme de Developpeur Web Junior. Il est composé d\'un interface e-commerce proposant les produits, et une recherche, ainsi que la gestion d\'un compte client. Et un interface "tableau de bord" dashbard permettant la gestion des produits, catégories, clients et utilisateurs.',
+      url: 'ecommphp.antoinefusilier.dev',
+      src: 'assets/images/works/1.svg',
+      caption: 'E-Commerce PHP Project',
+      thumb: 'assets/images/works/1.svg'
+    }
+  ]
+
   public workFilter: string;
   public singleGallery1: any;
   public albums: any = [];
