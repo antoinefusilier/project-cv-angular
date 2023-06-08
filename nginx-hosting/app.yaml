@@ -1,0 +1,13 @@
+runtime: custom
+env: flex
+service: angular-ui-dev
+threadsafe: true
+
+env_variables:
+  API_URL: "https://cv.antoinefusilier.dev"
+  BUCKET: "cv.antoinefusilier.dev"
+
+# automatic_scaling:
+#   max_num_instances: 30
+manual_scaling:
+  instances: 2
