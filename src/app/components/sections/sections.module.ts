@@ -20,6 +20,7 @@ import { UiModalComponent } from './ui-modal/ui-modal.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NguCarouselModule } from '@ngu/carousel';
 
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -46,6 +47,6 @@ import { NguCarouselModule } from '@ngu/carousel';
     TestimonialsComponent,
     NgbModule
   ],
-  imports: [CommonModule, LightboxModule, NgImageSliderModule, IvyCarouselModule, NguCarouselModule, NgbModule]
+  imports: [CommonModule, LightboxModule, NgImageSliderModule, NguCarouselModule, NgbModule]
 })
 export class SectionsModule {}

@@ -1,0 +1,7 @@
+dispatch:
+  # Ico
+  - url: "*/favicon.ico"
+    service: default
+
+  - url: "cv.antoinefusilier.dev"
+    service: cv

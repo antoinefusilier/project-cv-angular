@@ -9,7 +9,7 @@ export class AboutComponent implements OnInit {
 
   public aboutMe = {
     title : "A propos",
-    profil : "images/profil.svg",
+    profil : "photo_profil_bg_less.png",
     text: "Productif et créatif, j'ai repris mes études dans l'informatique et le développement pour en faire mon métier et ma carrière.",
     downloadCV : "Télécharger CV",
     downloadCVURL : "/sr/",

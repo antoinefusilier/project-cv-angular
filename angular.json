@@ -23,8 +23,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "allowedCommonJsDependencies": ["ngx-lightbox", "zone.js/dist/zone-error"],
-            "outputPath": "dist/ng-bolby",
+            "allowedCommonJsDependencies": ["ngx-lightbox", "zone.js/dist/zone-error", "ngx-filesaver", "file-saver", "simple-line-icons", "bootstrap"],
+            "outputPath": "nginx-hosting/dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",

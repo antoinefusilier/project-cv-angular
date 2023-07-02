@@ -1,13 +1,13 @@
 runtime: custom
 env: flex
-service: angular-ui-dev
+service: cv
 threadsafe: true
 
 env_variables:
-  API_URL: "https://cv.antoinefusilier.dev"
+  API_URL: "https://webapi.antoinefusilier.dev"
   BUCKET: "cv.antoinefusilier.dev"
 
 # automatic_scaling:
 #   max_num_instances: 30
 manual_scaling:
-  instances: 2
+  instances: 1
