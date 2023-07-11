@@ -4,7 +4,7 @@ service: cv
 threadsafe: true
 
 env_variables:
-  API_URL: "https://webapi.antoinefusilier.dev"
+  API_URL: "https://webapi-dev.antoinefusilier.dev"
   BUCKET: "cv.antoinefusilier.dev"
 
 # automatic_scaling:
