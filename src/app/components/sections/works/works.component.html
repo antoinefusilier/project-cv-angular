@@ -21,142 +21,60 @@
   </div>
 
   <!-- portolio wrapper -->
-  <div class="row portfolio-wrapper">
+  <div class="row  grid-item portfolio-wrapper">
     <!-- portfolio item -->
-    <div class="col-md-4 col-sm-6 grid-item art" *ngIf="workFilter === 'all' || workFilter === 'art'">
-      <a href="javascript:" class="work-image" (click)="singleGallery.open(0)">
-        <div class="portfolio-item rounded shadow-dark">
-          <div class="details">
-            <span class="term">Art</span>
-            <h4 class="title">Project Managment Illustration</h4>
-            <span class="more-button"><i class="icon-magnifier-add"></i></span>
-          </div>
-          <div class="thumb">
-            <app-gallery #singleGallery [albums]="singleGallery1"></app-gallery>
-            <div class="mask"></div>
-          </div>
-        </div>
-      </a>
-    </div>
+    <div *ngFor="let p of projects; let i = index" class="col-md" >
 
-    <!-- portfolio item -->
-    <div
-      class="col-md-4 col-sm-6 grid-item creative design"
-      *ngIf="workFilter === 'all' || workFilter === 'creative' || workFilter === 'design'"
-    >
-      <a href="javascript:" class="work-content" data-toggle="modal" (click)="exampleModalCenter.show()">
-        <div class="portfolio-item rounded shadow-dark">
-          <div class="details">
-            <span class="term">Creative</span>
-            <h4 class="title">Guest App Walkthrough Screens</h4>
-            <span class="more-button"><i class="icon-options"></i></span>
-          </div>
-          <div class="thumb">
-            <img src="assets/images/works/2.svg" alt="Portfolio-title" />
-            <div class="mask"></div>
-          </div>
-        </div>
-      </a>
-    </div>
+      <div *ngIf="workFilter === p.category || workFilter === 'all'"  class="col-md" >
 
-    <app-ui-modal #exampleModalCenter dialogClass="modal-dialog-centered work-modal" [hideHeader]="true" [hideFooter]="true">
-      <div class="app-modal-body">
-        <div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
-          <img src="assets/images/single-work.svg" alt="Title" />
-          <h2>Guest App Walkthrough Screens</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id
-            tempus.
-          </p>
-          <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
-          <a href="javascript:" class="btn btn-default">View on Dribbble</a>
-        </div>
+          <a href="javascript:" class="work-video" >
+              <div class="portfolio-item rounded shadow-dark">
+                <div class="details">
+                  <span class="term">{{p.categoryName}}</span>
+                  <div class="title">
+                    <h4>{{p.name}}
+                    </h4>
+                    <p>
+
+                      {{p.description}}
+                    </p>
+                    <!-- <h5 class="mt-5 p-4">{{p.url}}</h5> -->
+                  </div>
+                  <!-- <h5 class="title">{{p.url}}</h5> -->
+                  <!-- <p class="title"> -->
+                  <!-- </p> -->
+                  <span class="more-button"><i class="icon-camrecorder"></i></span>
+                </div>
+                <div class="thumb d-flex flex-row">
+                  <ng-image-slider class="d-flex flex-row" *ngIf="p.movies && p.movies.length > 0" [images]="p.movies"
+                    [manageImageRatio]="true"
+                    [showArrow]="true"
+                    [arrowKeyMove]="true"
+                    [videoAutoPlay]="true"
+                    [showVideoControls]="true"
+                    [direction]="'auto'"
+                    [imageSize]="'auto'"
+                    #nav>
+                  </ng-image-slider>
+                    <div class="mask d-flex flex-row"></div>
+                    <app-gallery *ngIf="!p.movies || p.movies.length === 0 && p.gallery" #singleGallery [albums]="p.gallery"></app-gallery>
+                    <app-gallery *ngIf="!p.movies || p.movies.length === 0 && !p.gallery && p.gallery.length === 0" #singleGallery [albums]="singleGallery1"></app-gallery>
+                    <div class="mask"></div>
+                </div>
+              </div>
+            </a>
+            <div class="d-flex flex-row align-self-center justify-content-center">
+              <div class="load-more text-center mt-2 ">
+                <a href="{{p.url}}" class="btn btn-info"><i class="fas fa-spinner"></i><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 20%;" class="h-2 w-2 fill-slate-900"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.607 9.607 0 0 1 12 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48 3.97-1.32 6.833-5.054 6.833-9.458C22 6.463 17.522 2 12 2Z"></path></svg> Code </a>
+              </div>
+              <div class="load-more text-center mt-2 ml-1">
+                <a href="{{p.url}}" class="btn btn-secondary"><i class="fas fa-spinner"></i> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 20%;" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5" />
+                </svg>
+                Voir </a>
+                </div>
+              </div>
       </div>
-    </app-ui-modal>
-
-    <!-- portfolio item -->
-    <div class="col-md-4 col-sm-6 grid-item branding" *ngIf="workFilter === 'all' || workFilter === 'branding'">
-      <a href="javascript:" class="work-video">
-        <div class="portfolio-item rounded shadow-dark">
-          <div class="details">
-            <span class="term">Branding</span>
-            <h4 class="title">Delivery App Wireframe</h4>
-            <span class="more-button"><i class="icon-camrecorder"></i></span>
-          </div>
-          <div class="thumb">
-            <ng-image-slider [images]="videoObject" #nav></ng-image-slider>
-            <div class="mask"></div>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <!-- portfolio item -->
-    <div class="col-md-4 col-sm-6 grid-item creative" *ngIf="workFilter === 'all' || workFilter === 'creative'">
-      <a href="javascript:" class="work-video" (click)="audioModal.show()">
-        <div class="portfolio-item rounded shadow-dark">
-          <div class="details">
-            <span class="term">Creative</span>
-            <h4 class="title">Onboarding Motivation</h4>
-            <span class="more-button"><i class="icon-music-tone-alt"></i></span>
-          </div>
-          <div class="thumb">
-            <img src="assets/images/works/4.svg" alt="Portfolio-title" />
-            <div class="mask"></div>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <app-ui-modal #audioModal dialogClass="modal-dialog-centered work-modal audio-modal" [hideHeader]="true" [hideFooter]="true">
-      <div class="app-modal-body">
-        <iframe
-          id="music-on"
-          class="mfp-iframe"
-          frameborder="0"
-          allowfullscreen=""
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/385068290&color=%23ff5500&
-auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&
-show_teaser=true&visual=true"
-        ></iframe>
-      </div>
-    </app-ui-modal>
-
-    <!-- portfolio item -->
-    <div class="col-md-4 col-sm-6 grid-item art branding" *ngIf="workFilter === 'all' || workFilter === 'art' || workFilter === 'branding'">
-      <a href="javascript:" class="gallery-link" (click)="albumsGallery.open(0)">
-        <div class="portfolio-item rounded shadow-dark">
-          <div class="details">
-            <span class="term">Art, Branding</span>
-            <h4 class="title">iMac Mockup Design</h4>
-            <span class="more-button"><i class="icon-picture"></i></span>
-          </div>
-          <div class="thumb">
-            <app-gallery #albumsGallery [albums]="albums"></app-gallery>
-            <div class="mask"></div>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <!-- portfolio item -->
-    <div
-      class="col-md-4 col-sm-6 grid-item creative design"
-      *ngIf="workFilter === 'all' || workFilter === 'creative' || workFilter === 'design'"
-    >
-      <a href="javascript:" target="_blank">
-        <div class="portfolio-item rounded shadow-dark">
-          <div class="details">
-            <span class="term">Creative, Design</span>
-            <h4 class="title">Game Store App Concept</h4>
-            <span class="more-button"><i class="icon-link"></i></span>
-          </div>
-          <div class="thumb">
-            <img src="assets/images/works/6.svg" alt="Portfolio-title" />
-            <div class="mask"></div>
-          </div>
-        </div>
-      </a>
     </div>
   </div>
 

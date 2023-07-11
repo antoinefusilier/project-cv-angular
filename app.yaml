@@ -1,0 +1,18 @@
+runtime: nodejs14
+
+instance_class: F2
+# entrypoint: ng serve --port 8080
+
+env_variables:
+  BUCKET_NAME: "cv.antoinefusilier.dev"
+
+# main: './dist/ng-bolby'
+
+handlers:
+- url: /
+  static_files: dist/yng-bolby/index.html
+  upload: dist/ng-bolby/index.html
+
+- url: /
+  static_dir: dist/ng-bolby
+

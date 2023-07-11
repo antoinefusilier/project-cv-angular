@@ -1,5 +1,5 @@
 /*=================================================================*/
-/*                      SECTIONS                             
+/*                      SECTIONS
 /*=================================================================*/
 main.content {
   margin-left: 290px;
@@ -103,7 +103,7 @@ section.home {
 }
 
 /*=================================================================*/
-/*                      PARALLAX SHAPES                              
+/*                      PARALLAX SHAPES
 /*=================================================================*/
 .parallax {
   position: absolute;
@@ -161,7 +161,7 @@ section.home {
 }
 
 /*=================================================================*/
-/*                      SKILLS                              
+/*                      SKILLS
 /*=================================================================*/
 .skill-item {
   .skill-info {
@@ -176,7 +176,7 @@ section.home {
 }
 
 /*=================================================================*/
-/*                      SERVICE                              
+/*                      SERVICE
 /*=================================================================*/
 .service-box {
   -webkit-transform: translateY(0);
@@ -197,7 +197,7 @@ section.home {
 }
 
 /*=================================================================*/
-/*                      PORTFOLIO                              
+/*                      PORTFOLIO
 /*=================================================================*/
 .portfolio-wrapper {
   [class*='col-'] {
@@ -232,6 +232,17 @@ section.home {
       transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
       position: absolute;
       top: 60px;
+    }
+    p {
+      color: #fff;
+      font-size: 10px;
+      margin: 10px 0 10px;
+      padding: 0 20px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+      position: absolute;
+      top: 80px;
     }
     span.term {
       color: #fff;
@@ -281,6 +292,7 @@ section.home {
     }
     .details {
       h4,
+      p,
       span {
         opacity: 1;
         transform: translateY(0);
@@ -336,7 +348,7 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      FACTS                              
+/*                      FACTS
 /*=================================================================*/
 .fact-item {
   .details {
@@ -359,7 +371,7 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      PRICES                              
+/*                      PRICES
 /*=================================================================*/
 .price-item {
   padding: 30px 40px;
@@ -414,7 +426,7 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      TESTIMONIALS                              
+/*                      TESTIMONIALS
 /*=================================================================*/
 .testimonials-wrapper {
   max-width: 700px;
@@ -439,7 +451,7 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      BLOG                              
+/*                      BLOG
 /*=================================================================*/
 .blog-item {
   overflow: hidden;
@@ -486,6 +498,15 @@ select.portfolio-filter-mobile {
     h4.title {
       font-size: 20px;
       a {
+        color: $colordark;
+        &:hover {
+          color: $colorpink;
+        }
+      }
+    };
+    p.description {
+      font-size: 10px;
+      p {
         color: $colordark;
         &:hover {
           color: $colorpink;
@@ -779,7 +800,7 @@ select.portfolio-filter-mobile {
   }
 }
 /*=================================================================*/
-/*                      CLIENTS                              
+/*                      CLIENTS
 /*=================================================================*/
 .client-item {
   min-height: 50px;
@@ -802,7 +823,7 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      CONTACT                              
+/*                      CONTACT
 /*=================================================================*/
 .contact-info {
   background-image: url('./../assets/images/map.svg');
@@ -816,7 +837,7 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      HELPER                              
+/*                      HELPER
 /*=================================================================*/
 .help-block.with-errors {
   color: red;
